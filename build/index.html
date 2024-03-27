@@ -59,42 +59,34 @@
 
 
      <!-- Header description -->
-     <div class="relative flex flex-col items-center justify-start py-10 sm:py-8
-     lg:w-1/2 md:w-4/5 overscroll-none">
-        <H1 class="text-3xl lg:text-5xl text-neutral-950 font-bold mb-3 text-center">Find Local Ethnic Businesses</H1>
-        <P class="text-base lg:text-lg md:text-lg text-neutral-800 text-center">Kamoky connects you to local ethnic businesses. With Kamoky, you can contact businesses, read their reviews and get trusted recommendations on ethnic businesses, products and services.</P>
+     <div class="max-w-[1280px] mx-auto relative flex flex-col items-center justify-start lg:py-24 py-14 
+      overscroll-none px-4">
+        <H1 class="w-full text-5xl text-neutral-950 font-bold mb-3 text-center">Find Local Ethnic Businesses</H1>
+        <P class="sm:w-full lg:w-1/2 text-lg text-neutral-800 text-center mt-4">Kamoky connects you to local ethnic businesses. With Kamoky, you can contact businesses, read their reviews and get trusted recommendations on ethnic businesses, products and services.</P>
      </div>
 
      <!-- grids -->
 
 
-     <div class=" py-14 sm:py-8 w-full h-fit">
-        <div class="mx-auto max-w-[1280px] px-6 sm:px-4">
-          <dl class="grid grid-cols-1 gap-x-4 gap-y-4 text-center lg:grid-cols-4">
+     <div class=" py-14 sm:py-6 w-full h-fit">
+        <div class="mx-auto max-w-[1280px] w-full px-6 sm:px-4">
 
-            <div style="background-image: url(assets/k-1.jpg);" class="mx-auto max-w-xs lg:h-96 h-32 rounded-2xl w-full border-slate-300
-            bg-no-repeat bg-cover  bg-slate-50">
-              
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="overflow-hidden rounded-lg aspect-w-1 aspect-h-1 md:aspect-h-1 md:aspect-w-1">
+                <img src="./assets/k-1.jpg" class="object-cover w-full h-full hover:scale-105 ease-linear duration-500" alt="">
             </div>
-
-            <div style="background-image: url(assets/k-2.jpg);" class="mx-auto max-w-xs lg:h-96 h-32 rounded-2xl w-full border-slate-300
-            bg-no-repeat bg-cover  bg-slate-50">
-              
+            <div class="overflow-hidden rounded-lg aspect-w-1 aspect-h-1 md:aspect-h-1 md:aspect-w-1">
+                <img src="./assets/k-2.jpg" class="object-cover w-full h-full hover:scale-105 ease-linear duration-500" alt="">
             </div>
-
-            <div style="background-image: url(assets/k-3.jpg);" class="mx-auto max-w-xs lg:h-96 h-32 rounded-2xl w-full border-slate-300
-            bg-no-repeat bg-cover  bg-slate-50">
-              
+            <div class="hidden sm:hidden md:block overflow-hidden rounded-lg aspect-w-1 aspect-h-1 md:aspect-h-1 md:aspect-w-1">
+                <img src="./assets/k-3.jpg" class="object-cover w-full h-full hover:scale-105 ease-linear duration-500" alt="">
             </div>
-
-            <div style="background-image: url(assets/k-4.jpg);" class="mx-auto max-w-xs lg:h-96 h-32 rounded-2xl w-full border-slate-300
-            bg-no-repeat bg-cover  bg-slate-50">
-              
+            <div class="hidden sm:hidden md:block overflow-hidden rounded-lg aspect-w-1 aspect-h-1 md:aspect-h-1 md:aspect-w-1">
+                <img src="./assets/k-4.jpg" class="object-cover w-full h-full hover:scale-105 ease-linear duration-500" alt="">
             </div>
-
-            
-
-          </dl>
+        </div>        
+        
+        
         </div>
       </div>
 
@@ -117,7 +109,7 @@
             </div>
 
             <div class="">
-                <img class="rounded object-cover h-full w-full 
+                <img class="rounded-lg object-cover h-full w-full 
                 bg-white/5 ring-1 ring-white/10" src="assets/kam.png"  
                 alt="App screenshot" >
             </div>
@@ -132,13 +124,13 @@
     <div class="bg-white py-24 sm:py-32">
         <div class="mx-auto max-w-[420px] px-6 lg:px-8">
           <h2 class="text-center text-3xl sm:text-4xl font-semibold leading-8 text-gray-900">Kamoky in the news</h2>
-          <div class="mx-auto mt-10 border-slate-300 bg-slate-50 hover:bg-slate-100 
+          <div class="mx-auto mt-10 border-slate-300 hover:bg-slate-50 ease-linear duration-300
           border gap-4 flex flex-col p-6 rounded-2xl h-fit justify-center items-center cursor-pointer">
             <img class="col-span-12 object-contain  lg:col-span-12 rounded-t-lg" 
             src="assets/j-hopkins.png" 
             alt="Transistor" height="240" width="240">
            
-            <a href="https://ventures.jhu.edu/news/introducing-the-2022-23-social-innovation-lab-cohort/" class="text-xl text-center text-neutral-800 font-bold hover:text-custom-purple">Introducing the 2022–23 Social Innovation Lab Cohort</a>
+            <a href="https://ventures.jhu.edu/news/introducing-the-2022-23-social-innovation-lab-cohort/" class="text-xl text-center text-gray-700 font-medium mt-4 hover:text-custom-purple">Introducing the 2022–23 Social Innovation Lab Cohort</a>
           </div>
         </div>
       </div>
@@ -146,6 +138,7 @@
 
       <!-- contact -->
     <div id="contact" style="background-image: url(/build/assets/k-2.jpg);" class="bg-no-repeat bg-cover  isolate relative bg-slate-100  px-6 py-24 sm:py-32 lg:px-8">
+      
       <div class="overlay absolute w-full h-full bg-slate-900 right-0 top-0 z-10 opacity-90"></div>
 
         <div class="mx-auto max-w-2xl text-center relative z-50">
